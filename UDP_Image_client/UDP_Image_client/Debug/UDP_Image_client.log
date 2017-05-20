@@ -1,0 +1,14 @@
+﻿2017/05/16 17:24:17 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\Users\文明\documents\visual studio 2013\Projects\UDP_Image_client\UDP_Image_client\UDP_Image_client.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Users\文明\Downloads\opencv\build\include" /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /wd4996 /analyze- /errorReport:prompt Source.cpp
+         Source.cpp
+     1>c:\users\文明\documents\visual studio 2013\projects\udp_image_client\udp_image_client\source.cpp(18): warning C4101: 'recvsocket' : ローカル変数は 1 度も使われていません。
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\文明\documents\visual studio 2013\Projects\UDP_Image_client\Debug\UDP_Image_client.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Users\文明\Downloads\opencv\build\x86\vc12\lib" opencv_core249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\文明\documents\visual studio 2013\Projects\UDP_Image_client\Debug\UDP_Image_client.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\文明\documents\visual studio 2013\Projects\UDP_Image_client\Debug\UDP_Image_client.lib" /MACHINE:X86 Debug\Source.obj
+         UDP_Image_client.vcxproj -> C:\Users\文明\documents\visual studio 2013\Projects\UDP_Image_client\Debug\UDP_Image_client.exe
+     1>プロジェクト "C:\Users\文明\documents\visual studio 2013\Projects\UDP_Image_client\UDP_Image_client\UDP_Image_client.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:01.91
